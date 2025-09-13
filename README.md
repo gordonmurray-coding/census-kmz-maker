@@ -49,4 +49,4 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## Example Output
 
-![Preview](docs/preview.png)
+![Preview](docs/showcase-sample-city.png)
