@@ -22,6 +22,11 @@ jobs:
           source .venv/bin/activate
           pip install -r requirements.txt
 
+      - name: Install package
+        run: |
+          source .venv/bin/activate
+          pip install -e .
+
       - name: Quick compile sanity check
         run: |
           source .venv/bin/activate
