@@ -1,0 +1,9 @@
+type,name,description,lat,lon,route
+point,Sample Household A,Fictional demo point,10.0000,10.0000,
+point,Sample Household B,Fictional demo point,10.0050,10.0100,
+cemetery,Sample Cemetery,Fictional cemetery location,9.9950,10.0050,
+trail,Route A segment 1,,10.0000,9.9900,A
+trail,Route A segment 2,,10.0030,9.9970,A
+trail,Route A segment 3,,10.0060,10.0040,A
+trail,Route B segment 1,,9.9950,10.0150,B
+trail,Route B segment 2,,9.9980,10.0200,B

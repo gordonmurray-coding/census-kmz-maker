@@ -1,0 +1,39 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Create venv & install deps
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: Quick compile sanity check
+        run: |
+          source .venv/bin/activate
+          python -m compileall -q .
+
+      - name: Run demo KMZ build
+        run: |
+          source .venv/bin/activate
+          python examples/make_kmz.py --csv examples/demo_points_trails.csv --out out/kmz/ci-demo.kmz
+
+      - name: Upload artifact (KMZ)
+        uses: actions/upload-artifact@v4
+        with:
+          name: demo-kmz
+          path: out/kmz/ci-demo.kmz

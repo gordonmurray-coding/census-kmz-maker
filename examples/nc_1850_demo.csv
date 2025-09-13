@@ -1,0 +1,8 @@
+type,name,description,lat,lon,route
+point,Household: Murray family,Example household point,36.1317,-79.3846,
+cemetery,Cross Roads Presbyterian Cemetery,Murray & kin burials,36.1648,-79.4208,
+trail,Historic Wagon Route segment A,,36.1500,-79.4100,A
+trail,Historic Wagon Route segment A,,36.1550,-79.4000,A
+trail,Historic Wagon Route segment A,,36.1600,-79.3920,A
+trail,Historic Wagon Route segment B,,36.1420,-79.4300,B
+trail,Historic Wagon Route segment B,,36.1480,-79.4220,B
