@@ -1,0 +1,24 @@
+type,name,description,lat,lon,route
+point,Town Hall,Administrative center of Sample City,10.0100,10.0100,
+point,Market Square,Central meeting spot and weekly market,10.0085,10.0080,
+point,Watermill,Small mill on the creek,10.0035,9.9960,
+point,Ferry Dock,River crossing point,9.9985,10.0220,
+point,Schoolhouse,One-room school,10.0150,10.0000,
+point,Blacksmith Shop,Workshop for tools and horses,10.0065,10.0020,
+point,Farmstead A,Homestead and fields,10.0180,10.0185,
+point,Farmstead B,Homestead and fields,10.0195,10.0040,
+point,Farmstead C,Homestead and fields,9.9965,10.0060,
+point,Farmstead D,Homestead and fields,10.0005,9.9885,
+cemetery,Old Hill Cemetery,Burials from early settlement,10.0210,10.0120,
+cemetery,Riverside Cemetery,Burials near river bend,9.9940,10.0185,
+trail,Old Wagon Road seg 1,,10.0200,9.9900,A
+trail,Old Wagon Road seg 2,,10.0160,9.9950,A
+trail,Old Wagon Road seg 3,,10.0120,10.0000,A
+trail,Old Wagon Road seg 4,,10.0080,10.0050,A
+trail,Old Wagon Road seg 5,,10.0040,10.0120,A
+trail,Old Wagon Road seg 6,,10.0000,10.0200,A
+trail,Riverside Path seg 1,,9.9920,10.0120,B
+trail,Riverside Path seg 2,,9.9960,10.0140,B
+trail,Riverside Path seg 3,,10.0000,10.0160,B
+trail,Riverside Path seg 4,,10.0040,10.0180,B
+trail,Riverside Path seg 5,,10.0080,10.0200,B
